@@ -25,3 +25,8 @@ root@machine:/# find / -type f -name "*html*" 2>/dev/null
 /usr/share/nginx/html/index.html
 /usr/share/nginx/html/50x.html
 ```
+
+Посчитать количество строк кода в проекте:
+```bash
+find . -name '*.go' | xargs -I {} cat {} | wc -l
+```

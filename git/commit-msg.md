@@ -1,0 +1,8 @@
+- feat: Introduces a new feature.
+- fix: Addresses a bug or issue.
+- chore: Includes routine tasks or maintenance updates.
+- docs: Updates documentation.
+- style: Changes related to code formatting or styling, without affecting functionality.
+- refactor: Modifies code structure or design without changing behavior.
+- test: Adds or modifies tests.
+- build: Changes related to the build system or external dependencies.
