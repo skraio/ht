@@ -10,3 +10,8 @@ git remote -v
 ```bash
 git remote remove НАЗВАНИЕ_РЕПОЗИТОРИЯ
 ```
+
+Получить информацию о репозитории и удаленных и локальных ветках
+```bash
+git remote show origin
+```

@@ -1,3 +1,7 @@
+```bash
+find .git
+```
+
 Find softlinks
 ```bash
 find / -type l -lname "/path" 2>/dev/null

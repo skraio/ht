@@ -64,3 +64,17 @@ git reset
 ```bash
 git checkout -- .
 ```
+
+---
+
+Переключение между ветками (HEAD будет указывать на нее)
+```bash
+git checkout название_ветки
+```
+
+---
+
+Создать ветку
+```bash
+git checkout -b new_branch
+```
