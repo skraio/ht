@@ -40,3 +40,25 @@ coo
 vim.keymap.set("n", "<leader>Gdf", "<cmd>Gvdiffsplit!<cr>")
 
 vim.keymap.set("n", "<leader>Gdh", "<cmd>G difftool -y HEAD~1<cr>")
+
+---
+
+To get a list of conflicts int the quickfix list
+```
+:Git mergetool
+```
+
+---
+
+Commit chunks of code
+
+open the preview using the = shortcut that is shown in the video, then visually select the chunk of
+code that you want in the commit and press 's'
+
+---
+
+On the left target branch, in the middle working copy and in the right merge branch
+```
+:G mergetool
+:Gvdiffsplit!
+```
